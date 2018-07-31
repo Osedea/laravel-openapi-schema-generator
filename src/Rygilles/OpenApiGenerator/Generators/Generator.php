@@ -139,7 +139,7 @@ abstract class Generator
 	{
 		$routeAction = $route->getAction();
 
-		$this->getParentCommand()->info('Processing route [' . implode('/', $route->methods()) . '] ' . $routeAction['uri']);
+		$this->getParentCommand()->info('Processing route [' . implode('/', $route->methods()) . '] ' . $route->uri);
 
 		$routeControllerDocBlock = $this->getRouteControllerDocBlock($route);
 		$routeControllerOperationTags = $this->getDocBlockOperationTags($routeControllerDocBlock);
