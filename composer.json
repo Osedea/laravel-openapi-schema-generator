@@ -1,5 +1,5 @@
 {
-    "name": "rygilles/laravel-openapi-schema-generator",
+    "name": "osedea/laravel-openapi-schema-generator",
     "description": "Generate OpenAPI schema from your Laravel Api project.",
     "type": "library",
     "license": "MIT",
